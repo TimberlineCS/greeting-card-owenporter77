@@ -1,34 +1,31 @@
-# Greeting Card
+# Greeting Card: White christmas
 
-## Project Overview
-In this project you will apply JavaScript to the DOM to create a greeting card on an HTML page.  
+* Author: Owen Porter
+* Class: CS121 Section 1
+* Semester: Fall 2023
 
-## Objectives
+## Overview
 
-- [ ] Create HTML elements
-- [ ] Use JavaScript to manipulate HTML elements
-- [ ] Use variables to manage data
+the program creates a holiday greeting card that is interactive with the user and contains if, then statements that change the card and a gif that also adds a moving aspect to the otherwise static card.
 
-## Specifications
+## Compiling and Using
 
-Create a Greeting Card on an HTML page.  Your Greeting Card should include at least 10 different HTML elements.  You must use JavaScript (only) to create and manipulate your elements in such a way that they come together to clearly resemble a picture.   Your Greeting Card should include a variety of colors (at least 5), text, an image, and music. 
+to compile the code you need to have the js file, an html index that references the js and allows it to run in a browser. you will also need the star gif that is referenced in the js file. to properly reference it the star gif should be located in the images directory, the js file in the scripts directory and index in the main directory and in the js code the source for the gif should be written as "Images/star.gif" as the pathing is related to where the index.html file starts. To open it you need to open a browser tab and Cntrl + O to open the  greeting card file in the APCSP folder in  the desktop directory and open the index file now refresh and it will be opened. the program does only require the persons name to properly open so just type in your name and it will work.
 
-## Your Tasks
+## Discussion
 
-- [ ] Locate the index.html page.  Here you will create the basic elements for your page.  You must include at least 10 different elements. 
-- [ ] Locate the App.js file.  Write code to manipulate the elements on your index.html page
-- [ ] Include music with your GreetingCard.  Below is an example of how to do this, 
+I only had a few minor bugs I was able to  fix and another problem with putting the star gif into the program but other than that other aspects of creating the div's and other elements went well. to create the program I created the background and the greet box then the other visual elements and lastly created the changing lights on the background border and added the star gif. I needed to research how to rotate an element on stack overflow and used my dad to help me change the colors of the background border. I got some small errors when spelling  and when all my elements were slowly going down the page each refresh but it was fixed by appending the text box (which was causing the issues) after the background. none of the parts were very challenging only time consuming. one thing that clicked was how the images and file sources are referenced  in relation to where the index was. one thing I would change would be not having this project being done at the same time as the annotated bibliography. I do think I can apply what I learned in later projects
 
-```
-var au = new Audio("Music/AllIWantForChristmas.mp3");
-au.controls = true;
-document.body.appendChild(au);
-```
+## Testing
 
-- [ ] Document your code thoroughly as you go with comments
-- [ ] Complete the required README using specified guidelines
+opening the file repeatedly and refreshing to make sure no problems occurred and sending it with the live link to see if it worked
 
-## Grade your project before you submit
+## Extra Credit
 
-- [ ] Before you submit your project, grade your project against the criteria below. 
-	[Rubric.md](Rubric.md)
+I included an if then function that changes the lights on the border of the background. I also had a interactive portion that asks and prints their name.
+
+## Sources used
+
+I used stack overflow to rotate the snowmans arm https://stackoverflow.com/questions/19126432/rotate-a-div-using-javascript
+
+My dad helped me to create the if then function to change the lights in the background
